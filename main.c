@@ -16,6 +16,6 @@ int digit_sum(int n) {
 int main() {   
   int n = atoi(readline("Enter an int: ")); 
   int result = digit_sum(n); 
-  printf("Sum of digits of %d is %d.\n", n, result); 
+  printf("sum of digits of %d is %d.\n", n, result); 
   return 0; 
 } 
